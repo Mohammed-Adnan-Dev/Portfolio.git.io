@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Adnan | Java FullStack Developer</title>
+    <link rel="stylesheet" href="portfolio2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logopng.png" class="logo" alt="Logo">
+                <ul class="desktop-menu">
+                    <li><a href="#header" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="mobile-menu-btn" aria-label="Open Menu">☰</button>
+            </nav>
+            <!-- Hero Section -->
+            <section class="header-text" id="hero">
+                <p class="intro">👋 Hello, I'm</p>
+                <h1><span>M</span>ohammed <span>A</span>dnan</h1>
+                <p class="role">Java FullStack Developer</p>
+                <p style="margin: 18px 0 32px 0; color: var(--text-light); font-size:1.1rem;">
+                    I build modern, scalable web applications with passion and precision.<br>
+                    <span style="color:var(--accent);font-weight:700;">Let's create something amazing together!</span>
+                </p>
+                <a href="#projects" class="btn1">View My Work <i class="fa-solid fa-arrow-down"></i></a>
+                <div class="header-right">
+                    <div class="sq-box">
+                        <img src="adnanpng.png" alt="Profile">
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="mobile-menu">
+            <span class="close-menu">&times;</span>
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-01">
+                    <img src="adnanimg2.jpeg" alt="Adnan">
+                </div>
+                <div class="about-col-02">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>
+                        I'm a passionate Java Full Stack Developer with a knack for building beautiful, responsive web applications. I love turning ideas into reality using code and design. I thrive on challenges and enjoy collaborating with creative minds.
+                    </p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing web/app interfaces</li>
+                            <li><span>Web Development</span><br>Website Development</li>
+                            <li><span>App Development</span><br>Application Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024 - Present</span><br>Freelance Full Stack Developer</li>
+                            <li><span>2023 - 2024</span><br>Intern at Tech Solutions</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023-2025</span><br>Master Of Computer Application <br><span>7.77 CGPA</span></li>
+                            <li><span>2020-2023</span><br>Bachelor of Science<br><span>8.71 CGPA</span></li>
+                            <li><span>2019-2020</span><br>12th <br><span>77.08%</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h1 class="subtitle">My Skills</h1>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <img src="imglogojava1.png" alt="Java">
+                    <h3>Java</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="htmllogo.png" alt="HTML">
+                    <h3>HTML</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="csslogo.png" alt="CSS">
+                    <h3>CSS</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="jslogo.png" alt="JavaScript">
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="reactlogo.png" alt="React">
+                    <h3>React</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="mysqllogo.png" alt="MySQL">
+                    <h3>MySQL</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h1 class="subtitle">Featured Projects</h1>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2721/2721297.png" alt="Project 1" style="background:#f7f9fa;">
+                    <h3>Portfolio Website</h3>
+                    <p style="color:var(--text-light);font-size:0.98rem;">A modern, responsive portfolio built with HTML, CSS, and JavaScript.</p>
+                    <a href="#" class="btn" style="margin-top:10px;">View Demo</a>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2721/2721306.png" alt="Project 2" style="background:#f7f9fa;">
+                    <h3>Task Manager App</h3>
+                    <p style="color:var(--text-light);font-size:0.98rem;">A full-stack Java web app for managing daily tasks efficiently.</p>
+                    <a href="#" class="btn" style="margin-top:10px;">View Demo</a>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2721/2721308.png" alt="Project 3" style="background:#f7f9fa;">
+                    <h3>Weather Dashboard</h3>
+                    <p style="color:var(--text-light);font-size:0.98rem;">A React-based dashboard showing real-time weather updates.</p>
+                    <a href="#" class="btn" style="margin-top:10px;">View Demo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> <a href="mailto:mohammedadnanccc111@gmail.com">mohammedadnanccc111@gmail.com</a></p>
+                    <p><i class="fa-solid fa-phone"></i> <a href="tel:7666568006">7666568006</a></p>
+                    <div style="margin:18px 0;">
+                        <a href="Resume-1.docx" download class="btn1"><i class="fa-solid fa-download"></i> Download CV</a>
+                    </div>
+                    <div style="margin-top:10px;">
+                        <a href="https://linkedin.com" target="_blank" style="margin-right:12px;color:var(--primary);font-size:1.5rem;"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com" target="_blank" style="margin-right:12px;color:var(--accent);font-size:1.5rem;"><i class="fab fa-github"></i></a>
+                        <a href="https://twitter.com" target="_blank" style="color:var(--secondary);font-size:1.5rem;"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button class="btn" type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2024 - All Rights Reserved - Mohammed Adnan</p>
+        </div>
+    </section>
+    <script>
+        // Tab switching
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(let tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(let tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        // Mobile menu
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+            document.querySelector('.mobile-menu').classList.add('active');
+        });
+        document.querySelector('.close-menu').addEventListener('click', function() {
+            document.querySelector('.mobile-menu').classList.remove('active');
+        });
+        document.querySelectorAll('.mobile-menu a').forEach(link => {
+            link.addEventListener('click', function() {
+                document.querySelector('.mobile-menu').classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html>
